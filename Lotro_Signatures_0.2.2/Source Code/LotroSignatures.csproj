@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3352B79A-46AA-4433-B1D2-275A28316064}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LotroSignatures</RootNamespace>
+    <AssemblyName>LotroSignatures</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>2BA2A090F731D1B222EFA26B8EA109140FB1C3F7</ManifestCertificateThumbprint>
+    <ManifestKeyFile>LotroSignatures_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <StartupObject>LotroSignatures.Program</StartupObject>
+    <ApplicationIcon>Resources\one_ring.ico</ApplicationIcon>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <TargetZone>LocalIntranet</TargetZone>
+    <PublishUrl>C:\Users\Illuvatar\Desktop\Lotro Signatures\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Lotro Signatures</ProductName>
+    <PublisherName>Felarion</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>0.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ImportPortraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportPortraitForm.Designer.cs">
+      <DependentUpon>ImportPortraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IStep.cs" />
+    <Compile Include="ProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressDialog.Designer.cs">
+      <DependentUpon>ProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step6.Designer.cs">
+      <DependentUpon>Step6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Strings.fr-FR.Designer.cs">
+      <DependentUpon>Strings.fr-FR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ImportPortraitForm.resx">
+      <DependentUpon>ImportPortraitForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressDialog.resx">
+      <DependentUpon>ProgressDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step6.resx">
+      <DependentUpon>Step6.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.fr-FR.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>LotroSignatures</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step1.resx">
+      <DependentUpon>Step1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step2.resx">
+      <DependentUpon>Step2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step3.resx">
+      <DependentUpon>Step3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step4.resx">
+      <DependentUpon>Step4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step5.resx">
+      <DependentUpon>Step5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step7.resx">
+      <DependentUpon>Step7.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.de-DE.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>LotroSignatures</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>LotroSignatures</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ru-RU.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.ru-RU.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>LotroSignatures</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Step1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step1.Designer.cs">
+      <DependentUpon>Step1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step2.Designer.cs">
+      <DependentUpon>Step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step3.Designer.cs">
+      <DependentUpon>Step3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step4.Designer.cs">
+      <DependentUpon>Step4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step5.Designer.cs">
+      <DependentUpon>Step5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Step7.Designer.cs">
+      <DependentUpon>Step7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Strings.de-DE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings.ru-RU.Designer.cs">
+      <DependentUpon>Strings.ru-RU.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\half_star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burglar_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Champion_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardian_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hunter_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lore_master_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minstrel_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\one_ring.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_hobbit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_elf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female_man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female_elf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\female_hobbit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dwarf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\english_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\german_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\french_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stencil_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rune_keeper_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Font_Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Font_Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Warden_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ring.png" />
+    <None Include="Resources\russian_flag.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

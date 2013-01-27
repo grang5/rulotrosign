@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>2008 von Felarion (DE-Morthond)</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="burglar" xml:space="preserve">
+    <value>Schurke</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="captain" xml:space="preserve">
+    <value>Hauptmann</value>
+  </data>
+  <data name="champion" xml:space="preserve">
+    <value>Waffenmeister</value>
+  </data>
+  <data name="chooseRaceClass" xml:space="preserve">
+    <value>Wähle Rasse, Klasse
+und Server</value>
+  </data>
+  <data name="class_" xml:space="preserve">
+    <value>Klasse</value>
+  </data>
+  <data name="craftingProgress" xml:space="preserve">
+    <value>Deine Berufe und
+Handwerkskönnen</value>
+  </data>
+  <data name="dwarf" xml:space="preserve">
+    <value>Zwerg</value>
+  </data>
+  <data name="elf" xml:space="preserve">
+    <value>Elb</value>
+  </data>
+  <data name="enterNameServer" xml:space="preserve">
+    <value>Name und Server
+eingeben</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="finished" xml:space="preserve">
+    <value>Fertig!</value>
+  </data>
+  <data name="founder_dwarf" xml:space="preserve">
+    <value>Vater</value>
+  </data>
+  <data name="founder_elf" xml:space="preserve">
+    <value>Brandir</value>
+  </data>
+  <data name="founder_hobbit" xml:space="preserve">
+    <value>Gründer</value>
+  </data>
+  <data name="founder_man" xml:space="preserve">
+    <value>Gründer</value>
+  </data>
+  <data name="founder_mixed" xml:space="preserve">
+    <value>Gründer</value>
+  </data>
+  <data name="guardian" xml:space="preserve">
+    <value>Wächter</value>
+  </data>
+  <data name="hobbit" xml:space="preserve">
+    <value>Hobbit</value>
+  </data>
+  <data name="hunter" xml:space="preserve">
+    <value>Jäger</value>
+  </data>
+  <data name="kinName" xml:space="preserve">
+    <value>Sippenname:</value>
+  </data>
+  <data name="kinRank" xml:space="preserve">
+    <value>Rang in der Sippe:</value>
+  </data>
+  <data name="kinshipDetails" xml:space="preserve">
+    <value>In welcher Sippe
+bist du?</value>
+  </data>
+  <data name="kinType" xml:space="preserve">
+    <value>Art der Sippe:</value>
+  </data>
+  <data name="leader_dwarf" xml:space="preserve">
+    <value>Fürst</value>
+  </data>
+  <data name="leader_elf" xml:space="preserve">
+    <value>Tûr</value>
+  </data>
+  <data name="leader_hobbit" xml:space="preserve">
+    <value>Anführer</value>
+  </data>
+  <data name="leader_man" xml:space="preserve">
+    <value>Meister</value>
+  </data>
+  <data name="leader_mixed" xml:space="preserve">
+    <value>Anführer</value>
+  </data>
+  <data name="level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="loremaster" xml:space="preserve">
+    <value>Kundiger</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Männlich</value>
+  </data>
+  <data name="man" xml:space="preserve">
+    <value>Mensch</value>
+  </data>
+  <data name="masterTier0" xml:space="preserve">
+    <value>Nicht Gemeistert</value>
+  </data>
+  <data name="masterTier1" xml:space="preserve">
+    <value>Lehrling (Meister)</value>
+  </data>
+  <data name="masterTier2" xml:space="preserve">
+    <value>Geselle (Meister)</value>
+  </data>
+  <data name="masterTier3" xml:space="preserve">
+    <value>Experte (Meister)</value>
+  </data>
+  <data name="masterTier4" xml:space="preserve">
+    <value>Virtuose (Meister)</value>
+  </data>
+  <data name="masterTier5" xml:space="preserve">
+    <value>Großmeister</value>
+  </data>
+  <data name="member_dwarf" xml:space="preserve">
+    <value>Mitglied</value>
+  </data>
+  <data name="member_elf" xml:space="preserve">
+    <value>Mitglied</value>
+  </data>
+  <data name="member_hobbit" xml:space="preserve">
+    <value>Mitglied</value>
+  </data>
+  <data name="member_man" xml:space="preserve">
+    <value>Mitglied</value>
+  </data>
+  <data name="member_mixed" xml:space="preserve">
+    <value>Mitglied</value>
+  </data>
+  <data name="minstrel" xml:space="preserve">
+    <value>Barde</value>
+  </data>
+  <data name="mixed" xml:space="preserve">
+    <value>Gemischt</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="noKinship" xml:space="preserve">
+    <value>Keine Sippe</value>
+  </data>
+  <data name="of7" xml:space="preserve">
+    <value> von 7</value>
+  </data>
+  <data name="officer_dwarf" xml:space="preserve">
+    <value>Seneschall</value>
+  </data>
+  <data name="officer_elf" xml:space="preserve">
+    <value>Caun</value>
+  </data>
+  <data name="officer_hobbit" xml:space="preserve">
+    <value>Ältester</value>
+  </data>
+  <data name="officer_man" xml:space="preserve">
+    <value>Vorsteher</value>
+  </data>
+  <data name="officer_mixed" xml:space="preserve">
+    <value>Offizier</value>
+  </data>
+  <data name="race" xml:space="preserve">
+    <value>Rasse</value>
+  </data>
+  <data name="rank_0" xml:space="preserve">
+    <value>Ohne Rang</value>
+  </data>
+  <data name="rank_1" xml:space="preserve">
+    <value>Rang 1 (Diener)</value>
+  </data>
+  <data name="rank_10" xml:space="preserve">
+    <value>Rang 10 (Leutnant)</value>
+  </data>
+  <data name="rank_11" xml:space="preserve">
+    <value>Rang 11 (Kommandeur)</value>
+  </data>
+  <data name="rank_12" xml:space="preserve">
+    <value>Rang 12 (Dritter Marschall)</value>
+  </data>
+  <data name="rank_13" xml:space="preserve">
+    <value>Rang 13 (Zweiter Marschall)</value>
+  </data>
+  <data name="rank_14" xml:space="preserve">
+    <value>Rang 14 (Erster Marschall)</value>
+  </data>
+  <data name="rank_15" xml:space="preserve">
+    <value>Rang 15 (General-Hauptmann)</value>
+  </data>
+  <data name="rank_2" xml:space="preserve">
+    <value>Rang 2 (Knappe)</value>
+  </data>
+  <data name="rank_3" xml:space="preserve">
+    <value>Rang 3 (Wächter)</value>
+  </data>
+  <data name="rank_4" xml:space="preserve">
+    <value>Rang 4 (Artillerist)</value>
+  </data>
+  <data name="rank_5" xml:space="preserve">
+    <value>Rang 5 (Unteroffizier der Wache)</value>
+  </data>
+  <data name="rank_6" xml:space="preserve">
+    <value>Rang 6 (Zeremonienmeister)</value>
+  </data>
+  <data name="rank_7" xml:space="preserve">
+    <value>Rang 7 (Meister-Wächter)</value>
+  </data>
+  <data name="rank_8" xml:space="preserve">
+    <value>Rang 8 (Hoher Artillerist)</value>
+  </data>
+  <data name="rank_9" xml:space="preserve">
+    <value>Rang 9 (Hoher Wächter)</value>
+  </data>
+  <data name="reallyCancel" xml:space="preserve">
+    <value>Willst du das Programm wirklich beenden?
+Alle bisher eingegebenen Daten werden dann verworfen.</value>
+  </data>
+  <data name="recruit_dwarf" xml:space="preserve">
+    <value>Rekrut</value>
+  </data>
+  <data name="recruit_elf" xml:space="preserve">
+    <value>Rekrut</value>
+  </data>
+  <data name="recruit_hobbit" xml:space="preserve">
+    <value>Rekrut</value>
+  </data>
+  <data name="recruit_man" xml:space="preserve">
+    <value>Rekrut</value>
+  </data>
+  <data name="recruit_mixed" xml:space="preserve">
+    <value>Rekrut</value>
+  </data>
+  <data name="selectPvmp" xml:space="preserve">
+    <value>Gib deine
+PvMP-Erfolge ein</value>
+  </data>
+  <data name="server" xml:space="preserve">
+    <value>Server:</value>
+  </data>
+  <data name="step" xml:space="preserve">
+    <value>Schritt</value>
+  </data>
+  <data name="doingPvp" xml:space="preserve">
+    <value>Ich mache PvMP auf der Seite der Freien Völker</value>
+  </data>
+  <data name="armourer" xml:space="preserve">
+    <value>Rüstungsschmied</value>
+  </data>
+  <data name="armsman" xml:space="preserve">
+    <value>Waffenbauer</value>
+  </data>
+  <data name="cook" xml:space="preserve">
+    <value>Koch</value>
+  </data>
+  <data name="explorer" xml:space="preserve">
+    <value>Entdecker</value>
+  </data>
+  <data name="farmer" xml:space="preserve">
+    <value>Bauer</value>
+  </data>
+  <data name="forester" xml:space="preserve">
+    <value>Förster</value>
+  </data>
+  <data name="historian" xml:space="preserve">
+    <value>Historiker</value>
+  </data>
+  <data name="jeweller" xml:space="preserve">
+    <value>Goldschmied</value>
+  </data>
+  <data name="masteryTier" xml:space="preserve">
+    <value>Gemeistert:</value>
+  </data>
+  <data name="metalsmith" xml:space="preserve">
+    <value>Schmied</value>
+  </data>
+  <data name="noProfession" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="professions" xml:space="preserve">
+    <value>Berufe:</value>
+  </data>
+  <data name="prospector" xml:space="preserve">
+    <value>Schürfer</value>
+  </data>
+  <data name="pvmp" xml:space="preserve">
+    <value>PvMP</value>
+  </data>
+  <data name="pvmpRank" xml:space="preserve">
+    <value>PvMP-Rang:</value>
+  </data>
+  <data name="scholar" xml:space="preserve">
+    <value>Gelehrter</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>Sterne:</value>
+  </data>
+  <data name="stars2" xml:space="preserve">
+    <value> Sterne</value>
+  </data>
+  <data name="tailor" xml:space="preserve">
+    <value>Schneider</value>
+  </data>
+  <data name="tier" xml:space="preserve">
+    <value>Können:</value>
+  </data>
+  <data name="tier0" xml:space="preserve">
+    <value>Ungelernt</value>
+  </data>
+  <data name="tier1" xml:space="preserve">
+    <value>Lehrling</value>
+  </data>
+  <data name="tier2" xml:space="preserve">
+    <value>Geselle</value>
+  </data>
+  <data name="tier3" xml:space="preserve">
+    <value>Experte</value>
+  </data>
+  <data name="tier4" xml:space="preserve">
+    <value>Virtuose</value>
+  </data>
+  <data name="tier5" xml:space="preserve">
+    <value>Meister</value>
+  </data>
+  <data name="tinker" xml:space="preserve">
+    <value>Kesselflicker</value>
+  </data>
+  <data name="vocation" xml:space="preserve">
+    <value>Berufung:</value>
+  </data>
+  <data name="weaponsmith" xml:space="preserve">
+    <value>Waffenschmied</value>
+  </data>
+  <data name="woodsman" xml:space="preserve">
+    <value>Waldhüter</value>
+  </data>
+  <data name="woodworker" xml:space="preserve">
+    <value>Drechsler</value>
+  </data>
+  <data name="yeoman" xml:space="preserve">
+    <value>Freibauer</value>
+  </data>
+  <data name="copy2clipboard" xml:space="preserve">
+    <value>In die Zwischenablage</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="finalText" xml:space="preserve">
+    <value>Hat dir das Tool weitergeholfen? Du könntest ja ein paar Goldmünzen an Felarion auf [DE] Morthond senden ;)
+
+Außerdem möchte ich mich bedanken bei:
+ - lotro-wiki.com (von wo ich einige der Bilder genommen habe)
+ - Turbine für die Bild-Templates (und natürlich für das Spiel!)</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>von </value>
+  </data>
+  <data name="of2" xml:space="preserve">
+    <value> von </value>
+  </data>
+  <data name="save2file" xml:space="preserve">
+    <value>In Datei speichern</value>
+  </data>
+  <data name="smallPreview" xml:space="preserve">
+    <value>Vorschaubild - Das eigentliche Bild ist 4-mal so groß</value>
+  </data>
+  <data name="import" xml:space="preserve">
+    <value>Importieren</value>
+  </data>
+  <data name="importPortrait" xml:space="preserve">
+    <value>Porträtscreenshot
+importieren</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="scale" xml:space="preserve">
+    <value>Bildgröße</value>
+  </data>
+  <data name="useImportedPortrait" xml:space="preserve">
+    <value>Eigenen Porträtscreenshot verwenden</value>
+  </data>
+  <data name="extractingImageData" xml:space="preserve">
+    <value>Bilddaten werden extrahiert...</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>Deine Signatur wurde erstellt!</value>
+  </data>
+  <data name="masterTier6" xml:space="preserve">
+    <value>Überragender Meister</value>
+  </data>
+  <data name="tier6" xml:space="preserve">
+    <value>Überragend</value>
+  </data>
+  <data name="runekeeper" xml:space="preserve">
+    <value>Runenbewahrer</value>
+  </data>
+  <data name="warden" xml:space="preserve">
+    <value>Hüter</value>
+  </data>
+  <data name="useRingSymbol" xml:space="preserve">
+    <value>Ring-Symbol verwenden</value>
+  </data>
+  <data name="useDefault" xml:space="preserve">
+    <value>Standardbild verwenden</value>
+  </data>
+  <data name="imageTooSmall" xml:space="preserve">
+    <value>Das gewählte Bild ist zu klein. Ein Bild muss mindestens 141*141 Pixel groß sein, um es verwenden zu können.</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+</root>

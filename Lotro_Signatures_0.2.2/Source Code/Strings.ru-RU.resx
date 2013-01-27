@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>2008 by Felarion (DE-Morthond) 
+перевод: Братство Арды www.lotroarda.ru</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="burglar" xml:space="preserve">
+    <value>Взломщик</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="captain" xml:space="preserve">
+    <value>Рыцарь</value>
+  </data>
+  <data name="champion" xml:space="preserve">
+    <value>Воитель</value>
+  </data>
+  <data name="chooseRaceClass" xml:space="preserve">
+    <value>Выберите рассу, 
+класс и уровень</value>
+    <comment>Choose race, class
+and level</comment>
+  </data>
+  <data name="class_" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="craftingProgress" xml:space="preserve">
+    <value>Введите ваш 
+уровень ремесла</value>
+  </data>
+  <data name="dwarf" xml:space="preserve">
+    <value>Гном</value>
+  </data>
+  <data name="elf" xml:space="preserve">
+    <value>Эльф</value>
+  </data>
+  <data name="enterNameServer" xml:space="preserve">
+    <value>Введите свое имя 
+и сервер</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>Женщина</value>
+  </data>
+  <data name="finished" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="founder_dwarf" xml:space="preserve">
+    <value>Помошник лидера</value>
+    <comment>Father</comment>
+  </data>
+  <data name="founder_elf" xml:space="preserve">
+    <value>Помошник лидера</value>
+    <comment>Einior</comment>
+  </data>
+  <data name="founder_hobbit" xml:space="preserve">
+    <value>Помошник лидера</value>
+    <comment>Chief</comment>
+  </data>
+  <data name="founder_man" xml:space="preserve">
+    <value>Помошник лидера</value>
+    <comment>Founder</comment>
+  </data>
+  <data name="founder_mixed" xml:space="preserve">
+    <value>Помошник лидера</value>
+    <comment>Founder</comment>
+  </data>
+  <data name="guardian" xml:space="preserve">
+    <value>Страж</value>
+  </data>
+  <data name="hobbit" xml:space="preserve">
+    <value>Хоббит</value>
+  </data>
+  <data name="hunter" xml:space="preserve">
+    <value>Охотник</value>
+  </data>
+  <data name="kinName" xml:space="preserve">
+    <value>Название содружества:</value>
+  </data>
+  <data name="kinRank" xml:space="preserve">
+    <value>Уровень членства в содружестве:</value>
+  </data>
+  <data name="kinshipDetails" xml:space="preserve">
+    <value>Введите детали 
+вашего содружества</value>
+    <comment>Give your
+kinship details</comment>
+  </data>
+  <data name="kinType" xml:space="preserve">
+    <value>Тип содружества:</value>
+  </data>
+  <data name="leader_dwarf" xml:space="preserve">
+    <value>Лидер</value>
+    <comment>Lord</comment>
+  </data>
+  <data name="leader_elf" xml:space="preserve">
+    <value>Лидер</value>
+    <comment>Tûr</comment>
+  </data>
+  <data name="leader_hobbit" xml:space="preserve">
+    <value>Лидер</value>
+    <comment>Leader</comment>
+  </data>
+  <data name="leader_man" xml:space="preserve">
+    <value>Лидер</value>
+    <comment>Master</comment>
+  </data>
+  <data name="leader_mixed" xml:space="preserve">
+    <value>Лидер</value>
+    <comment>Leader</comment>
+  </data>
+  <data name="level" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
+  <data name="loremaster" xml:space="preserve">
+    <value>Хранитель Мудрости</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Мужчина</value>
+  </data>
+  <data name="man" xml:space="preserve">
+    <value>Человек</value>
+  </data>
+  <data name="member_dwarf" xml:space="preserve">
+    <value>Участник</value>
+    <comment>Member</comment>
+  </data>
+  <data name="member_elf" xml:space="preserve">
+    <value>Участник</value>
+    <comment>Member</comment>
+  </data>
+  <data name="member_hobbit" xml:space="preserve">
+    <value>Участник</value>
+    <comment>Member</comment>
+  </data>
+  <data name="member_man" xml:space="preserve">
+    <value>Участник</value>
+    <comment>Member</comment>
+  </data>
+  <data name="member_mixed" xml:space="preserve">
+    <value>Участник</value>
+    <comment>Member</comment>
+  </data>
+  <data name="minstrel" xml:space="preserve">
+    <value>Менестрель</value>
+  </data>
+  <data name="mixed" xml:space="preserve">
+    <value>Смешаное</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="noKinship" xml:space="preserve">
+    <value>Не состою в содружестве</value>
+  </data>
+  <data name="of7" xml:space="preserve">
+    <value> из </value>
+    <comment>of 7</comment>
+  </data>
+  <data name="officer_dwarf" xml:space="preserve">
+    <value>Предводитель</value>
+    <comment>Seneschal</comment>
+  </data>
+  <data name="officer_elf" xml:space="preserve">
+    <value>Предводитель</value>
+    <comment>Caun</comment>
+  </data>
+  <data name="officer_hobbit" xml:space="preserve">
+    <value>Предводитель</value>
+    <comment>Voluntary Assistant Chief</comment>
+  </data>
+  <data name="officer_man" xml:space="preserve">
+    <value>Предводитель</value>
+    <comment>Provost</comment>
+  </data>
+  <data name="officer_mixed" xml:space="preserve">
+    <value>Предводитель</value>
+  </data>
+  <data name="race" xml:space="preserve">
+    <value>Раса</value>
+  </data>
+  <data name="reallyCancel" xml:space="preserve">
+    <value>Вы действительно хотите отменить генерирование?
+Данное действие приведет к удалению всей введенной информации.</value>
+    <comment>Do you really want to cancel?
+Doing so will discard all data you have entered.</comment>
+  </data>
+  <data name="recruit_dwarf" xml:space="preserve">
+    <value>Новобранец</value>
+    <comment>Recruit</comment>
+  </data>
+  <data name="recruit_elf" xml:space="preserve">
+    <value>Новобранец</value>
+    <comment>Recruit</comment>
+  </data>
+  <data name="recruit_hobbit" xml:space="preserve">
+    <value>Новобранец</value>
+    <comment>Recruit</comment>
+  </data>
+  <data name="recruit_man" xml:space="preserve">
+    <value>Новобранец</value>
+    <comment>Recruit</comment>
+  </data>
+  <data name="recruit_mixed" xml:space="preserve">
+    <value>Новобранец</value>
+    <comment>Recruit</comment>
+  </data>
+  <data name="selectPvmp" xml:space="preserve">
+    <value>Выберите свой
+PvMP ранг</value>
+    <comment>Select your
+PvMP rank</comment>
+  </data>
+  <data name="server" xml:space="preserve">
+    <value>Сервер:</value>
+  </data>
+  <data name="step" xml:space="preserve">
+    <value>Шаг</value>
+  </data>
+  <data name="armourer" xml:space="preserve">
+    <value>Бронник</value>
+  </data>
+  <data name="armsman" xml:space="preserve">
+    <value>Мастер-оружейник</value>
+  </data>
+  <data name="cook" xml:space="preserve">
+    <value>Повар</value>
+  </data>
+  <data name="copy2clipboard" xml:space="preserve">
+    <value>Скопировать в буфер</value>
+    <comment>Copy to Clipboard</comment>
+  </data>
+  <data name="doingPvp" xml:space="preserve">
+    <value>Я за фрипов в PvMP</value>
+    <comment>I am doing freep-side PvMP</comment>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="explorer" xml:space="preserve">
+    <value>Исследователь</value>
+  </data>
+  <data name="farmer" xml:space="preserve">
+    <value>Фермер</value>
+  </data>
+  <data name="finalText" xml:space="preserve">
+    <value>Вам понравилось?Генератор-подписей создана Felorion'ом с сервера [DE]Morthond.
+
+Часть изображений взято с www.lotro-wiki.com...Спасибо Turbine за предоставленые шаблоны подписей и за отличную игру.
+Переведено содружеством Братство Арды www.lotroarda.ru</value>
+    <comment>Do you like it? Consider sending some gold to Felarion on [DE] Morthond ;)
+
+Additional credits go to:
+ - lotro-wiki.com from where I took some of the used images
+ - Turbine for the signature templates (and for the great game)</comment>
+  </data>
+  <data name="forester" xml:space="preserve">
+    <value>Лесоруб</value>
+  </data>
+  <data name="historian" xml:space="preserve">
+    <value>Историк</value>
+  </data>
+  <data name="jeweller" xml:space="preserve">
+    <value>Ювелир</value>
+  </data>
+  <data name="masterTier0" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="masterTier1" xml:space="preserve">
+    <value>Уровень 1</value>
+    <comment>Master Apprentice</comment>
+  </data>
+  <data name="masterTier2" xml:space="preserve">
+    <value>Уровень 2</value>
+    <comment>Master Journeyman</comment>
+  </data>
+  <data name="masterTier3" xml:space="preserve">
+    <value>Уровень 3</value>
+    <comment>Master Expert</comment>
+  </data>
+  <data name="masterTier4" xml:space="preserve">
+    <value>Уровень 4</value>
+    <comment>Master Artisan</comment>
+  </data>
+  <data name="masterTier5" xml:space="preserve">
+    <value>Уровень 5</value>
+    <comment>Grand Master</comment>
+  </data>
+  <data name="metalsmith" xml:space="preserve">
+    <value>Кузнец</value>
+  </data>
+  <data name="noProfession" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>сервер  </value>
+    <comment>of</comment>
+  </data>
+  <data name="of2" xml:space="preserve">
+    <value>  содр-ва  </value>
+    <comment>of2</comment>
+  </data>
+  <data name="professions" xml:space="preserve">
+    <value>Професия:</value>
+  </data>
+  <data name="prospector" xml:space="preserve">
+    <value>Рудокоп</value>
+  </data>
+  <data name="pvmp" xml:space="preserve">
+    <value>PvMP</value>
+  </data>
+  <data name="pvmpRank" xml:space="preserve">
+    <value>PvMP Ранг:</value>
+  </data>
+  <data name="rank_0" xml:space="preserve">
+    <value>Без ранговый</value>
+  </data>
+  <data name="rank_1" xml:space="preserve">
+    <value>Ранг 1 (Пехотинец)</value>
+    <comment>Rank 1 (Footman)</comment>
+  </data>
+  <data name="rank_10" xml:space="preserve">
+    <value>Ранг 10 (Лейтенант)</value>
+    <comment>Rank 10 (Lieutenant)</comment>
+  </data>
+  <data name="rank_11" xml:space="preserve">
+    <value>Ранг 11 (Командор)</value>
+    <comment>Rank 11 (Commander)</comment>
+  </data>
+  <data name="rank_12" xml:space="preserve">
+    <value>Ранг 12 (Третий маршал)</value>
+    <comment>Rank 12 (Third Marshall)</comment>
+  </data>
+  <data name="rank_13" xml:space="preserve">
+    <value>Ранг 13 (Второй маршал)</value>
+    <comment>Rank 13 (Second Marshall)</comment>
+  </data>
+  <data name="rank_14" xml:space="preserve">
+    <value>Ранг 14 (Первый маршал)</value>
+    <comment>Rank 14 (First Marshall)</comment>
+  </data>
+  <data name="rank_15" xml:space="preserve">
+    <value>Ранг 15 (Главнокомандующий)</value>
+    <comment>Rank 15 (Captain-General)</comment>
+  </data>
+  <data name="rank_2" xml:space="preserve">
+    <value>Ранг 2 (Сквайр)</value>
+    <comment>Rank 2 (Esquire)</comment>
+  </data>
+  <data name="rank_3" xml:space="preserve">
+    <value>Ранг 3 (Гвардеец)</value>
+    <comment>Rank 3 (Guardsman)</comment>
+  </data>
+  <data name="rank_4" xml:space="preserve">
+    <value>Ранг 4 (Старший гвардеец)</value>
+    <comment>Rank 4 (Man-at-Arms)</comment>
+  </data>
+  <data name="rank_5" xml:space="preserve">
+    <value>Ранг 5 (Сержант гвардии)</value>
+    <comment>Rank 5 (Sergeant of the Guard)</comment>
+  </data>
+  <data name="rank_6" xml:space="preserve">
+    <value>Ранг 6 (Первый сержант)</value>
+    <comment>Rank 6 (Sergeant-at-Arms)</comment>
+  </data>
+  <data name="rank_7" xml:space="preserve">
+    <value>Ранг 7 (Мастер-сержант)</value>
+    <comment>Rank 7 (Master Guardsman)</comment>
+  </data>
+  <data name="rank_8" xml:space="preserve">
+    <value>Ранг 8 (Главный сержант)</value>
+    <comment>Rank 8 (Master-at-Arms)</comment>
+  </data>
+  <data name="rank_9" xml:space="preserve">
+    <value>Ранг 9 (Королевский сержант)</value>
+    <comment>Rank 9 (High Warden)</comment>
+  </data>
+  <data name="save2file" xml:space="preserve">
+    <value>Сохранить как фаил</value>
+  </data>
+  <data name="scholar" xml:space="preserve">
+    <value>Ученый</value>
+  </data>
+  <data name="smallPreview" xml:space="preserve">
+    <value>Изображение для предварительного просмотра.
+Настоящее изобр-е в 4 раза больше.</value>
+    <comment>Small preview, actual image is 4 times as large</comment>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>Звёзды:</value>
+  </data>
+  <data name="stars2" xml:space="preserve">
+    <value>звёзды</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>Подпись успешно создана</value>
+  </data>
+  <data name="tailor" xml:space="preserve">
+    <value>Портной</value>
+  </data>
+  <data name="tier" xml:space="preserve">
+    <value>Умелец:</value>
+    <comment>Tier:</comment>
+  </data>
+  <data name="tier0" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="tier1" xml:space="preserve">
+    <value>Уровень 1</value>
+  </data>
+  <data name="tier2" xml:space="preserve">
+    <value>Уровень 2</value>
+  </data>
+  <data name="tier3" xml:space="preserve">
+    <value>Уровень 3</value>
+  </data>
+  <data name="tier4" xml:space="preserve">
+    <value>Уровень 4</value>
+  </data>
+  <data name="tier5" xml:space="preserve">
+    <value>Уровень 5</value>
+  </data>
+  <data name="tinker" xml:space="preserve">
+    <value>Медник</value>
+  </data>
+  <data name="vocation" xml:space="preserve">
+    <value>Професия:</value>
+    <comment>Vocation:</comment>
+  </data>
+  <data name="weaponsmith" xml:space="preserve">
+    <value>Оружейник</value>
+    <comment>Weaponsmith</comment>
+  </data>
+  <data name="woodsman" xml:space="preserve">
+    <value>Лесник</value>
+    <comment>Woodsman</comment>
+  </data>
+  <data name="woodworker" xml:space="preserve">
+    <value>Деревообработчик</value>
+    <comment>Woodworker</comment>
+  </data>
+  <data name="yeoman" xml:space="preserve">
+    <value>Йомен</value>
+  </data>
+  <data name="import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="importPortrait" xml:space="preserve">
+    <value>Импорт портрета 
+вашего персанажа</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="scale" xml:space="preserve">
+    <value>Шкала</value>
+    <comment>Scale</comment>
+  </data>
+  <data name="useImportedPortrait" xml:space="preserve">
+    <value>Использовать портрет вашего персонажа</value>
+    <comment>Use your own characters's portrait</comment>
+  </data>
+  <data name="extractingImageData" xml:space="preserve">
+    <value>Извлечение данных изображения ...</value>
+    <comment>Extracting Image Data...</comment>
+  </data>
+  <data name="masterTier6" xml:space="preserve">
+    <value>Уровень 6</value>
+    <comment>Superior Master</comment>
+  </data>
+  <data name="tier6" xml:space="preserve">
+    <value>Уровень 6</value>
+  </data>
+  <data name="runekeeper" xml:space="preserve">
+    <value>Хранитель рун</value>
+  </data>
+  <data name="warden" xml:space="preserve">
+    <value>Защитник</value>
+  </data>
+  <data name="useRingSymbol" xml:space="preserve">
+    <value>Использовать символ кольца</value>
+    <comment>Use Ring Symbol</comment>
+  </data>
+  <data name="useDefault" xml:space="preserve">
+    <value>Использовать картинку по умолчанию</value>
+  </data>
+  <data name="imageTooSmall" xml:space="preserve">
+    <value>Изображение которое вы хотите использовать слишком мало.Минимальный размер изображения 141*141 пикселей.</value>
+    <comment>The image you want to use is too small. It has to be 141*141 pixels minimum.</comment>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="masterTier7" xml:space="preserve">
+    <value>Западная марка</value>
+    <comment>Superior Master</comment>
+  </data>
+  <data name="masteryTier" xml:space="preserve">
+    <value>Мастер:</value>
+    <comment>Mastery Tier:</comment>
+  </data>
+  <data name="tier7" xml:space="preserve">
+    <value>Западная марка</value>
+  </data>
+</root>

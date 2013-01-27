@@ -1,0 +1,121 @@
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\LotroSignatures.exe.config
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\Resources\Font_Bold.ttf
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\Resources\Font_Regular.ttf
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\LotroSignatures.exe
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\LotroSignatures.pdb
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\bin\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\ResolveAssemblyReference.cache
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.ImportPortraitForm.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.ProgressDialog.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step6.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.MainForm.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Properties.Resources.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step1.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step2.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step3.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step4.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step5.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Step7.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Strings.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Strings.fr-FR.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Strings.de-DE.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.Strings.ru-RU.resources
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.csproj.GenerateResource.Cache
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.exe
+C:\Users\grang\Downloads\4_LotroSignatures\Lotro Signatures(RUS_BETA)\Source Code\obj\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\LotroSignatures.exe.config
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.exe
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\Resources\Font_Bold.ttf
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\Resources\Font_Regular.ttf
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\LotroSignatures.exe
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\bin\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\ResolveAssemblyReference.cache
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.ImportPortraitForm.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.ProgressDialog.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step6.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.MainForm.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Properties.Resources.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step1.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step2.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step3.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step4.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step5.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Step7.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Strings.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Strings.fr-FR.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Strings.de-DE.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.Strings.ru-RU.resources
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\LotroSignatures.csproj.GenerateResource.Cache
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\14_Lotro_Signature\Lotro_Signatures_0.1\Source Code\obj\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\LotroSignatures.exe.config
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.exe
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\Resources\Font_Bold.ttf
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\Resources\Font_Regular.ttf
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\LotroSignatures.exe
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\bin\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\ResolveAssemblyReference.cache
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.ImportPortraitForm.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.ProgressDialog.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step6.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.MainForm.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Properties.Resources.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step1.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step2.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step3.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step4.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step5.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Step7.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Strings.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Strings.fr-FR.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Strings.de-DE.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.Strings.ru-RU.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\LotroSignatures.csproj.GenerateResource.Cache
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.1\Source Code\obj\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\Resources\Font_Bold.ttf
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\Resources\Font_Regular.ttf
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\LotroSignatures.exe.config
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\LotroSignatures.exe
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\bin\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\ResolveAssemblyReference.cache
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.ImportPortraitForm.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.ProgressDialog.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step6.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.MainForm.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Properties.Resources.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step1.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step2.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step3.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step4.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step5.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Step7.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Strings.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Strings.fr-FR.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Strings.de-DE.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.Strings.ru-RU.resources
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\fr-FR\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\de-DE\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\ru-RU\LotroSignatures.resources.dll
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.exe
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\LotroSignatures.pdb
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\ResGen.read.1.tlog
+C:\Users\alexander.sorochan\Downloads\Lotro_Signature\Lotro_Signatures_0.2.2\Source Code\obj\Release\ResGen.write.1.tlog

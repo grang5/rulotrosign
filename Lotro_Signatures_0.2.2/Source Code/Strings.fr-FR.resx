@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>2008 par Felarion (DE-Morthond)</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Précédent</value>
+  </data>
+  <data name="burglar" xml:space="preserve">
+    <value>Cambrioleur</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="captain" xml:space="preserve">
+    <value>Capitaine</value>
+  </data>
+  <data name="champion" xml:space="preserve">
+    <value>Champion</value>
+  </data>
+  <data name="chooseRaceClass" xml:space="preserve">
+    <value>Votre race, classe
+et niveau</value>
+  </data>
+  <data name="class_" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="craftingProgress" xml:space="preserve">
+    <value>Indiquez votre
+niveau d'artisanat</value>
+  </data>
+  <data name="dwarf" xml:space="preserve">
+    <value>Nain</value>
+  </data>
+  <data name="elf" xml:space="preserve">
+    <value>Elfe</value>
+  </data>
+  <data name="enterNameServer" xml:space="preserve">
+    <value>Entrez votre nom
+et serveur</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>Femme</value>
+  </data>
+  <data name="finished" xml:space="preserve">
+    <value>Terminer</value>
+  </data>
+  <data name="founder_dwarf" xml:space="preserve">
+    <value>Père</value>
+  </data>
+  <data name="founder_elf" xml:space="preserve">
+    <value>Einior</value>
+  </data>
+  <data name="founder_hobbit" xml:space="preserve">
+    <value>Chief</value>
+  </data>
+  <data name="founder_man" xml:space="preserve">
+    <value>Fondateur</value>
+  </data>
+  <data name="founder_mixed" xml:space="preserve">
+    <value>Fondateur</value>
+  </data>
+  <data name="guardian" xml:space="preserve">
+    <value>Gardien</value>
+  </data>
+  <data name="hobbit" xml:space="preserve">
+    <value>Hobbit</value>
+  </data>
+  <data name="hunter" xml:space="preserve">
+    <value>Chasseur</value>
+  </data>
+  <data name="kinName" xml:space="preserve">
+    <value>Nom de Confrérie :</value>
+  </data>
+  <data name="kinRank" xml:space="preserve">
+    <value>Rang dans la Confrérie :</value>
+  </data>
+  <data name="kinshipDetails" xml:space="preserve">
+    <value>Informations sur
+votre Confrérie</value>
+  </data>
+  <data name="kinType" xml:space="preserve">
+    <value>Type de confrérie :</value>
+  </data>
+  <data name="leader_dwarf" xml:space="preserve">
+    <value>Seigneur</value>
+  </data>
+  <data name="leader_elf" xml:space="preserve">
+    <value>Tûr</value>
+  </data>
+  <data name="leader_hobbit" xml:space="preserve">
+    <value>Leader</value>
+  </data>
+  <data name="leader_man" xml:space="preserve">
+    <value>Maître</value>
+  </data>
+  <data name="leader_mixed" xml:space="preserve">
+    <value>Dirigeant</value>
+  </data>
+  <data name="level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="loremaster" xml:space="preserve">
+    <value>Maître du Savoir</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Homme</value>
+  </data>
+  <data name="man" xml:space="preserve">
+    <value>Homme</value>
+  </data>
+  <data name="member_dwarf" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="member_elf" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="member_hobbit" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="member_man" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="member_mixed" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="minstrel" xml:space="preserve">
+    <value>Ménestrel</value>
+  </data>
+  <data name="mixed" xml:space="preserve">
+    <value>Mixte</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nom :</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="noKinship" xml:space="preserve">
+    <value>Sans Confrérie</value>
+  </data>
+  <data name="of7" xml:space="preserve">
+    <value> sur 7</value>
+  </data>
+  <data name="officer_dwarf" xml:space="preserve">
+    <value>Sénéchal</value>
+  </data>
+  <data name="officer_elf" xml:space="preserve">
+    <value>Caun</value>
+  </data>
+  <data name="officer_hobbit" xml:space="preserve">
+    <value>Assistant Chef Volontaire</value>
+  </data>
+  <data name="officer_man" xml:space="preserve">
+    <value>Prêvot</value>
+  </data>
+  <data name="officer_mixed" xml:space="preserve">
+    <value>Officier</value>
+  </data>
+  <data name="race" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="reallyCancel" xml:space="preserve">
+    <value>Désirez-vous réellement annuler ?
+Le faire supprimera les données précédemment saisies.</value>
+  </data>
+  <data name="recruit_dwarf" xml:space="preserve">
+    <value>Recrue</value>
+  </data>
+  <data name="recruit_elf" xml:space="preserve">
+    <value>Recrue</value>
+  </data>
+  <data name="recruit_hobbit" xml:space="preserve">
+    <value>Recrue</value>
+  </data>
+  <data name="recruit_man" xml:space="preserve">
+    <value>Recrue</value>
+  </data>
+  <data name="recruit_mixed" xml:space="preserve">
+    <value>Recrue</value>
+  </data>
+  <data name="selectPvmp" xml:space="preserve">
+    <value>Indiquez votre
+grade PvMP</value>
+  </data>
+  <data name="server" xml:space="preserve">
+    <value>Serveur :</value>
+  </data>
+  <data name="step" xml:space="preserve">
+    <value>Etape</value>
+  </data>
+  <data name="armourer" xml:space="preserve">
+    <value>Armurier</value>
+  </data>
+  <data name="armsman" xml:space="preserve">
+    <value>Fourbisseur</value>
+  </data>
+  <data name="cook" xml:space="preserve">
+    <value>Cuisinier</value>
+  </data>
+  <data name="copy2clipboard" xml:space="preserve">
+    <value>Copier dans le presse-papier</value>
+  </data>
+  <data name="doingPvp" xml:space="preserve">
+    <value>Participe au PvMP côté Héros</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="explorer" xml:space="preserve">
+    <value>Explorateur</value>
+  </data>
+  <data name="farmer" xml:space="preserve">
+    <value>Fermier</value>
+  </data>
+  <data name="finalText" xml:space="preserve">
+    <value>Vous appréciez cet outil ? Envisagez d'envoyer un peu d'or à Felarion, sur [DE] Morthond ;)
+
+Crédits additionnels :
+ - lotro-wiki.com où j'ai récupéré plusieurs images
+ - Turbine pour le modèle de signature (et pour le jeu formidable)</value>
+  </data>
+  <data name="forester" xml:space="preserve">
+    <value>Forestier</value>
+  </data>
+  <data name="historian" xml:space="preserve">
+    <value>Historien</value>
+  </data>
+  <data name="jeweller" xml:space="preserve">
+    <value>Bijoutier</value>
+  </data>
+  <data name="masterTier0" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="masterTier1" xml:space="preserve">
+    <value>Maître Apprenti</value>
+  </data>
+  <data name="masterTier2" xml:space="preserve">
+    <value>Maître Compagnon</value>
+  </data>
+  <data name="masterTier3" xml:space="preserve">
+    <value>Maître Expert</value>
+  </data>
+  <data name="masterTier4" xml:space="preserve">
+    <value>Maître Artisan</value>
+  </data>
+  <data name="masterTier5" xml:space="preserve">
+    <value>Grand Maître</value>
+  </data>
+  <data name="masteryTier" xml:space="preserve">
+    <value>Tier de maîtrise :</value>
+  </data>
+  <data name="metalsmith" xml:space="preserve">
+    <value>Ferronnier</value>
+  </data>
+  <data name="noProfession" xml:space="preserve">
+    <value>Aucune</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>de </value>
+  </data>
+  <data name="of2" xml:space="preserve">
+    <value> sur </value>
+  </data>
+  <data name="professions" xml:space="preserve">
+    <value>Professions :</value>
+  </data>
+  <data name="prospector" xml:space="preserve">
+    <value>Prospecteur</value>
+  </data>
+  <data name="pvmp" xml:space="preserve">
+    <value>PvMP</value>
+  </data>
+  <data name="pvmpRank" xml:space="preserve">
+    <value>Grade PvMP :</value>
+  </data>
+  <data name="rank_0" xml:space="preserve">
+    <value>Non gradé</value>
+  </data>
+  <data name="rank_1" xml:space="preserve">
+    <value>Rang 1 (Fantassin)</value>
+  </data>
+  <data name="rank_10" xml:space="preserve">
+    <value>Rang 10 (Lieutenant)</value>
+  </data>
+  <data name="rank_11" xml:space="preserve">
+    <value>Rang 11 (Commandeur)</value>
+  </data>
+  <data name="rank_12" xml:space="preserve">
+    <value>Rang 12 (Troisième Maréchal)</value>
+  </data>
+  <data name="rank_13" xml:space="preserve">
+    <value>Rang 13 (Second Maréchal)</value>
+  </data>
+  <data name="rank_14" xml:space="preserve">
+    <value>Rang 14 (Premier Maréchal)</value>
+  </data>
+  <data name="rank_15" xml:space="preserve">
+    <value>Rang 15 (Captaine Général)</value>
+  </data>
+  <data name="rank_2" xml:space="preserve">
+    <value>Rang 2 (Ecuyer)</value>
+  </data>
+  <data name="rank_3" xml:space="preserve">
+    <value>Rang 3 (Garde)</value>
+  </data>
+  <data name="rank_4" xml:space="preserve">
+    <value>Rang 4 (Homme d'armes)</value>
+  </data>
+  <data name="rank_5" xml:space="preserve">
+    <value>Rang 5 (Sergent de la Garde)</value>
+  </data>
+  <data name="rank_6" xml:space="preserve">
+    <value>Rang 6 (Sergent d'armes)</value>
+  </data>
+  <data name="rank_7" xml:space="preserve">
+    <value>Rang 7 (Maître Garde)</value>
+  </data>
+  <data name="rank_8" xml:space="preserve">
+    <value>Rang 8 (Maître d'armes)</value>
+  </data>
+  <data name="rank_9" xml:space="preserve">
+    <value>Rang 9 (Haut Protecteur)</value>
+  </data>
+  <data name="save2file" xml:space="preserve">
+    <value>Enregistrer l'image</value>
+  </data>
+  <data name="scholar" xml:space="preserve">
+    <value>Erudit</value>
+  </data>
+  <data name="smallPreview" xml:space="preserve">
+    <value>Prévisualisation, l'image finale sera quatre fois plus grande</value>
+  </data>
+  <data name="stars" xml:space="preserve">
+    <value>Etoiles :</value>
+  </data>
+  <data name="stars2" xml:space="preserve">
+    <value> étoiles</value>
+  </data>
+  <data name="success" xml:space="preserve">
+    <value>Signature créée sans encombre</value>
+  </data>
+  <data name="tailor" xml:space="preserve">
+    <value>Tailleur</value>
+  </data>
+  <data name="tier" xml:space="preserve">
+    <value>Tier :</value>
+  </data>
+  <data name="tier0" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="tier1" xml:space="preserve">
+    <value>Apprenti</value>
+  </data>
+  <data name="tier2" xml:space="preserve">
+    <value>Compagnon</value>
+  </data>
+  <data name="tier3" xml:space="preserve">
+    <value>Expert</value>
+  </data>
+  <data name="tier4" xml:space="preserve">
+    <value>Artisan</value>
+  </data>
+  <data name="tier5" xml:space="preserve">
+    <value>Maître</value>
+  </data>
+  <data name="tinker" xml:space="preserve">
+    <value>Joaillier</value>
+  </data>
+  <data name="vocation" xml:space="preserve">
+    <value>Vocation :</value>
+  </data>
+  <data name="weaponsmith" xml:space="preserve">
+    <value>Fabricant d'armes</value>
+  </data>
+  <data name="woodsman" xml:space="preserve">
+    <value>Arctier</value>
+  </data>
+  <data name="woodworker" xml:space="preserve">
+    <value>Menuisier</value>
+  </data>
+  <data name="yeoman" xml:space="preserve">
+    <value>Franc-Tenancier</value>
+  </data>
+  <data name="import" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="importPortrait" xml:space="preserve">
+    <value>Importer un portrait
+du personnage</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="scale" xml:space="preserve">
+    <value>Echelle</value>
+  </data>
+  <data name="useImportedPortrait" xml:space="preserve">
+    <value>Utiliser un portrait personnalisé</value>
+  </data>
+  <data name="extractingImageData" xml:space="preserve">
+    <value>Préparation de l'image</value>
+  </data>
+  <data name="masterTier6" xml:space="preserve">
+    <value>Maître Suprême</value>
+  </data>
+  <data name="tier6" xml:space="preserve">
+    <value>Suprême</value>
+  </data>
+  <data name="runekeeper" xml:space="preserve">
+    <value>Gardien des Runes</value>
+  </data>
+  <data name="warden" xml:space="preserve">
+    <value>Sentinelle</value>
+  </data>
+</root>
